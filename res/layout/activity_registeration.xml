@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background = "#0000ff">
+
+    <TextView
+        android:id="@+id/NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/USER_NAME"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/MAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/EMAIL"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+
+        
+    </EditText>
+
+    <TextView
+        android:id="@+id/PASS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/PASSWORD"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/SUBMIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="110dp"
+        android:text="submit" />
+
+    <Switch
+        android:id="@+id/GOTO_LOGIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="130dp"
+        android:text="login" />
+
+    <TextView
+        android:id="@+id/RESPONSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="130dp"
+        android:background = "#ff0000"
+        android:text="Hello" />
+
+</LinearLayout>
